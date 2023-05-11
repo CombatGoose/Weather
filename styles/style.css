@@ -1,0 +1,118 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #311963;
+}
+.container {
+    background-color: white;
+    height: 150px;
+    width: 530px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 50px;
+}
+.place {
+    width: 68px;
+    height: 68px;
+}
+.location {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline:none;
+    color: rgb(91, 91, 91);
+    font-size: 20px;
+}
+.location::placeholder {
+    color: rgb(91, 91, 91);
+}
+.search-button {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border: none;
+    background-color: #7FA9E8;
+}
+.search {
+    width: 34px;
+    height: 34px;
+}
+.not-found {
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: none;
+    opacity: 0;
+    transition-duration: 1s;
+}
+.invalid {
+    margin-top: 50px;
+    margin-bottom: 100%;
+    font-size: 24px;
+}
+.weather-box, .weather-details {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    opacity: 0;
+}
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    display: flex;
+    align-items: center;
+}
+.span-img {
+    width: 68px;
+    height: 68px;
+}
+.inf {
+    font-weight: 500;
+    font-size: 32px;
+}
+center {
+    width: 100%;
+}
+.weather-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.weather-img {
+    width: 400px;
+    height: 400px;
+}
+.show {
+    transition-duration: 1s;
+    opacity: 1;
+    display: block;
+}
+.temperature {
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 15px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}

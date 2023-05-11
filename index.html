@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <img class="place" src="./img/place-marker-svgrepo-com.svg" alt="">
+            <input class="location" type="text" placeholder="Enter your location">
+            <button class="search-button">
+                <img class="search" src="./img/search-svgrepo-com(1).svg" alt="">
+            </button>
+        </div>
+        
+        <center>
+        <div class="not-found">
+            <img src="img/404.png">
+            <p class="invalid">Oops! Invalid location :/</p>
+        </div>
+
+            <div class="weather-box">
+                <img class="weather-img" src="">
+                <p class="temperature"></p>
+                <p class="description"></p>
+            </div>
+        </center>
+
+        <div class="weather-details flex">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span class="humidity-span">
+                        <img class="span-img" src="./img/humidity-svgrepo-com.svg" alt="">
+                    </span>
+                    <p class="humidity-text inf">Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span class="wind-span">
+                       <img class="span-img" src="./img/wind-svgrepo-com.svg" alt="">
+                    </span>
+                    <p class="wind-text inf">Wind Speed</p>
+                </div>
+            </div>
+
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
